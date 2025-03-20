@@ -37,7 +37,7 @@ function addMonsterToTable(monster) {
 ```
 
 
-##📂 Installation & Usage
+## 📂 Installation & Usage
 -----------------------
 
 1.  bashCopyEditgit clone https://github.com/your-username/monster-manager.git
@@ -47,7 +47,7 @@ function addMonsterToTable(monster) {
 3.  Enjoy managing your **monsters**!
     
 
-##🤝 Contributing
+## 🤝 Contributing
 ---------------
 
 Feel free to **fork** this repository and improve it! If you find any issues, open a **pull request** or **report a bug**.

@@ -40,7 +40,7 @@ function addMonsterToTable(monster) {
 ## 📂 Installation & Usage
 -----------------------
 
-1.  bashCopyEditgit clone https://github.com/your-username/monster-manager.git
+1.  bashCopyEditgit clone https://github.com/Harjot2552/monster-manager.git
     
 2.  Open index.html in your browser.
     

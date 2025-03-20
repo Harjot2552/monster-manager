@@ -23,5 +23,11 @@ function createMonster(event) {
         rarity,
         favorite
     };
+    
+    // giving object value to this fucntion
+    addMonsterToTable(monster);
+
+    // resetting the form
+    document.getElementById('monster-form').reset();
 
 }

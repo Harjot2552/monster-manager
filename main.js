@@ -8,4 +8,12 @@ function createMonster(event) {
    const rarity = document.getElementById('rarity').value;
    const favorite = document.querySelector('input[name="favorite"]').checked;
 
+       // validating the form.
+       if (!name || !type || !rarity) {
+        alert('Please fill out all fields.');
+        return;
+    }
+
+
+
 }

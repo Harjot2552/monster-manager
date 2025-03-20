@@ -16,4 +16,12 @@ function createMonster(event) {
 
 
 
+    // storing all data in javasscript object.
+    const monster = {
+        name,
+        type: type.value,
+        rarity,
+        favorite
+    };
+
 }

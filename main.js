@@ -31,3 +31,19 @@ function createMonster(event) {
     document.getElementById('monster-form').reset();
 
 }
+
+
+
+// displaying the monster details in table form
+function addMonsterToTable(monster) {
+    const tableBody = document.getElementById('monster-table-body');
+    const row = tableBody.insertRow();
+    row.innerHTML = `
+        <td>${monster.favorite ? 'Yes' : 'No'}</td>
+        <td>${monster.name}</td>
+        <td>${monster.type}</td>
+        <td>${monster.rarity}</td>
+        <td><button class="delete-btn" onclick="deleteMonster(this)">Delete</button></td>
+    `;
+}
+

@@ -47,3 +47,11 @@ function addMonsterToTable(monster) {
     `;
 }
 
+
+
+
+// function to delete the table row
+function deleteMonster(button) {
+    const row = button.parentElement.parentElement;
+    row.remove();
+}
